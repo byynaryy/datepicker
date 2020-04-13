@@ -1,0 +1,20 @@
+<!doctype html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{% endblock %} - Tasks</title>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+{% block scripts %}{% endblock %}
+<div class="container">
+    <div class="">
+        <div id="header" class="">
+            <h1>Date Picker</h1>
+        </div>
+        <hr>
+        <div class="row">
+            <div id="content" class="">
+                {% block content %}
+                {% endblock %}
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>
